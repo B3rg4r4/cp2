@@ -18,7 +18,6 @@ export default function RootLayout({
     <html lang="pt-br">
       <body>
         <Cabecalho />
-
         <Menu />
         {children}
         <Rodape />

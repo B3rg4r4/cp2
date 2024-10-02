@@ -1,31 +1,23 @@
-
 import Link from "next/link";
-
 
 export default function Menu() {
   return (
     <nav>
       <ul>
         <li>
-
-          <Link href="/pagina1">
-            <a>Primeira Ideia</a>
-          </Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/pagina2">
-            <a>Segunda Ideia</a>
-          </Link>
+          <Link href="/pagina1">Primeira Ideia</Link>
         </li>
         <li>
-          <Link href="/pagina3">
-            <a>Terceira Ideia</a>
-          </Link>
+          <Link href="/pagina2">Segunda Ideia</Link>
         </li>
         <li>
-          <Link href="/calculo">
-            <a>Cálculo</a>
-          </Link>
+          <Link href="/pagina3">Terceira Ideia</Link>
+        </li>
+        <li>
+          <Link href="/pagina4">Cálculo Proposto</Link>
         </li>
       </ul>
     </nav>
