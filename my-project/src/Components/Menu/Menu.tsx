@@ -1,10 +1,13 @@
-import Link from 'next/link';
+
+import Link from "next/link";
+
 
 export default function Menu() {
   return (
     <nav>
       <ul>
         <li>
+
           <Link href="/pagina1">
             <a>Primeira Ideia</a>
           </Link>

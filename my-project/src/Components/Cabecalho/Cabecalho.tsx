@@ -1,12 +1,21 @@
-import Menu from "../Menu/Menu"
 
 export default function Cabecalho() {
-    return (
-        <header className="cabecalho">
-            <h1>
-                Cabeçalho
-            </h1>
-            <Menu />
-        </header>
-    )
+  return (
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/sobre">Sobre</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
+
+
+
