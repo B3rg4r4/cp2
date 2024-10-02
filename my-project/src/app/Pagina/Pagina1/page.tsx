@@ -1,3 +1,5 @@
+import NasaImage from "@/Components/NasaImg/NasaImg";
+
 export default function PaginaUm() {
   return (
     <div>
@@ -7,6 +9,7 @@ export default function PaginaUm() {
         próximas com outros corpos celestes, especialmente Vênus e Marte. Ele sugere que esses eventos causaram grandes desastres naturais, como
         inundações, terremotos e mudanças climáticas.
       </p>
+      <NasaImage />
     </div>
   );
 }
