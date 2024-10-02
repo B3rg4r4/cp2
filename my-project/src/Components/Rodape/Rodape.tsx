@@ -1,9 +1,8 @@
 export default function Rodape() {
-    return (
-        <header className="Rodape">
-            <h1>
-                Rodape
-            </h1>
-        </header>
-    )
+
+  return (
+    <footer>
+      <p>Meu site &copy; 2021</p>
+    </footer>
+  );
 }
